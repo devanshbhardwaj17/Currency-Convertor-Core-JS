@@ -1973,7 +1973,7 @@ function create(uniqId,textTitle,defaultvalue){
             let op=document.createElement("option")
             let CTRCODE=detail.currency_code
             op.value=CTRCODE
-            op.textContent=`${CTRCODE}`
+            op.textContent=detail.country_name
             countryList.appendChild(op)
         }
     })
